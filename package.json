@@ -1,0 +1,40 @@
+{
+    "name": "xml-comments",
+    "publisher": "accoman",
+    "displayName": "Xml Comments",
+    "description": "XML comments To Track To-Do's",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Ankit-sagar32/XML-Comments.git"
+    },
+    "contributors": [
+        "Ankit Sagar"
+    ],
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Snippets",
+        "Extension Packs"
+    ],
+    "extensionPack": [
+        "Gruntfuggly.todo-tree"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "typescript",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
