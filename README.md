@@ -4,7 +4,7 @@ XML-Comments are provided for JavaScript / Typescript.
 
 ## Features
 
-Simply put "\\\" without quotes, you will get intellisense to add xml comments in your javascript or typescript.
+Simply put "///" without quotes, you will get intellisense to add xml comments in your javascript or typescript.
 
 Tracker will be provided for all the todos.
 
